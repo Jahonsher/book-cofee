@@ -1,0 +1,53 @@
+.shirinliklar {
+    width: 412px;
+    background-color: rgb(246, 67, 97);
+        h1 {
+            font-size: 40px;
+            color: gold;
+            text-align: center;
+            font-family: "Kode Mono", monospace;
+        }
+        h2 {
+            font-size: 30px;
+            color: white;
+            text-align: center;
+            font-family: "Protest Guerrilla", sans-serif;
+        }
+        span {
+            margin-left: 150px;
+        }
+        a {
+            color: white;
+                button {
+                    width: 400px;
+                    height: 40px;
+                    margin-left: 5px;
+                    border: 2px solid white;
+                    background-color: rgb(246, 67, 97);
+                    border-radius: 4px;
+                    color: white;
+                    font-size: 24px;
+                }
+        }
+        h3 {
+            margin-top: 15px;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            font-family: "Dancing Script", cursive;
+        }
+        ol {
+            margin-left: 30px;
+                li {
+                    margin-top: 15px;
+                    font-family: "Caveat", cursive;
+                    color: white;
+                }
+                img {
+                    width: 300px;
+                    margin-left: 40px;
+                    height: 250px;
+                    margin-top: 15px;
+                }
+        }
+}

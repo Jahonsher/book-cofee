@@ -1,0 +1,64 @@
+.menu {
+    display: block;
+    width: 412px;
+        h1 {
+            // font-family: "Dancing Script", cursive;
+            color: rgb(220, 143, 0);
+            font-family: "Kalam", cursive;
+            border-radius: 50px;
+            font-size: 13px;
+            text-align: center;
+        }
+        h2 {
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(220, 143, 0);
+            border-radius: 50px;
+            font-size: 20px;
+            text-align: center;
+            margin-top: 15px;
+            display: block;
+        }
+        video, h3{
+            margin-left: 40px;
+        }
+        .tanlov {
+            display: flex;
+                .rasm {
+                    display: block;
+                    width: 412px;
+                    height: 170px;
+                    margin-left: 80px;
+                    margin-top: 5px;
+                }
+                div {
+                    display: block;
+                    margin-top: 10px;
+                        button {
+                            display: block;
+                            font-family: "Dancing Script", cursive;
+                            width: 100px;
+                            height: 20px;
+                            background-color:  rgb(220, 143, 0);
+                            border: none;
+                            margin-top: 5px;
+                            border-radius: 7px;
+                            color: white;
+                                a {
+                                    color: white;
+                                    text-decoration: none;
+                                }
+
+                        }
+                        .bir, .besh{
+                            margin-left: 30px;
+                        }
+                        .ikki, .turt {
+                            margin-left: 40px;
+                        }
+                        .uch {
+                            margin-left: 50px;
+                        }
+                }
+        }
+}
+

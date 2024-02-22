@@ -1,0 +1,81 @@
+.fast-food {
+    width: 412px;
+    background-color: rgb(2, 194, 2);
+    // height: 2340px; 
+        h1 {
+            font-size: 40px;
+            color: gold;
+            text-align: center;
+            font-family: "Kode Mono", monospace;
+        }
+        a {
+            color: white;
+                button {
+                    width: 400px;
+                    height: 40px;
+                    margin-left: 5px;
+                    border: 1px solid white;
+                    background-color: rgb(2, 194, 2);
+                    color: white;
+                    font-size: 24px;
+                }
+        }
+        h2 {
+            font-size: 30px;
+            color: white;
+            text-align: center;
+            font-family: "Protest Guerrilla", sans-serif;
+        }
+        span {
+            margin-left: 150px;
+        }
+        h3 {
+            font-size: 25px;
+            text-align: center;
+            color: gold;
+            margin-top: 20px;
+            font-family: "Dancing Script", cursive;
+        }
+        .donar, .fri {
+            width: 412px;
+            margin-top: 20px;
+            // height: 500px;
+        }
+        p {
+            color: white;
+            font-size: 20px;
+            font-family: "Caveat", cursive;
+        }
+        ol {
+            list-style: block;
+            display: flex;
+            .lavash {
+                transform: rotate(90deg);
+                margin-top: 10px;
+                margin-left: 15px;
+            }
+            .burger {
+                transform: rotate(90deg);
+                margin-top: 70px;
+                margin-left: 25px;
+                height: 180px;
+            }
+            
+            .shourma {
+                transform: rotate(90deg);
+                margin-top: -40px;
+                margin-left: 39px;
+                width: 90px;
+            }
+            .xotdog {
+                margin-left: 20px;
+            }
+                li {
+                    margin-left: 30px;
+                    font-size: 20px;
+                    color: white;
+                    margin-top: 10px;
+                    font-family: "Caveat", cursive;
+                }
+        }
+}

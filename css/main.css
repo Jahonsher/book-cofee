@@ -1,0 +1,385 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 412px;
+  display: block;
+}
+
+footer {
+  width: 402px;
+  height: 300px;
+  margin-top: 20px;
+  position: relative;
+}
+footer img {
+  width: 55px;
+  display: inline;
+}
+footer .koko {
+  width: 402px;
+  height: 300px;
+}
+footer h2 {
+  width: 400px;
+  position: absolute;
+  font-size: 18px;
+  display: inline;
+  margin-top: 0px;
+  margin-left: -400px;
+  color: white;
+}
+footer a {
+  display: block;
+  position: absolute;
+  margin-top: -300px;
+}
+footer a img {
+  border-radius: 50%;
+  width: 30px;
+  margin-left: 365px;
+  margin-top: 0px;
+}
+footer h1 {
+  font-size: 12px;
+  margin-top: 200px;
+  margin-left: 7px;
+  color: white;
+}
+footer a {
+  text-decoration: none;
+  margin-left: 5px;
+  margin-left: 7px;
+}
+footer a p {
+  margin-top: 60px;
+}
+
+.menu {
+  display: block;
+  width: 412px;
+}
+.menu h1 {
+  color: rgb(220, 143, 0);
+  font-family: "Kalam", cursive;
+  border-radius: 50px;
+  font-size: 13px;
+  text-align: center;
+}
+.menu h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(220, 143, 0);
+  border-radius: 50px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 15px;
+  display: block;
+}
+.menu video, .menu h3 {
+  margin-left: 40px;
+}
+.menu .tanlov {
+  display: flex;
+}
+.menu .tanlov .rasm {
+  display: block;
+  width: 412px;
+  height: 170px;
+  margin-left: 80px;
+  margin-top: 5px;
+}
+.menu .tanlov div {
+  display: block;
+  margin-top: 10px;
+}
+.menu .tanlov div button {
+  display: block;
+  font-family: "Dancing Script", cursive;
+  width: 100px;
+  height: 20px;
+  background-color: rgb(220, 143, 0);
+  border: none;
+  margin-top: 5px;
+  border-radius: 7px;
+  color: white;
+}
+.menu .tanlov div button a {
+  color: white;
+  text-decoration: none;
+}
+.menu .tanlov div .bir, .menu .tanlov div .besh {
+  margin-left: 30px;
+}
+.menu .tanlov div .ikki, .menu .tanlov div .turt {
+  margin-left: 40px;
+}
+.menu .tanlov div .uch {
+  margin-left: 50px;
+}
+
+.fast-food {
+  width: 412px;
+  background-color: rgb(2, 194, 2);
+}
+.fast-food h1 {
+  font-size: 40px;
+  color: gold;
+  text-align: center;
+  font-family: "Kode Mono", monospace;
+}
+.fast-food a {
+  color: white;
+}
+.fast-food a button {
+  width: 400px;
+  height: 40px;
+  margin-left: 5px;
+  border: 1px solid white;
+  background-color: rgb(2, 194, 2);
+  color: white;
+  font-size: 24px;
+}
+.fast-food h2 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-family: "Protest Guerrilla", sans-serif;
+}
+.fast-food span {
+  margin-left: 150px;
+}
+.fast-food h3 {
+  font-size: 25px;
+  text-align: center;
+  color: gold;
+  margin-top: 20px;
+  font-family: "Dancing Script", cursive;
+}
+.fast-food .donar, .fast-food .fri {
+  width: 412px;
+  margin-top: 20px;
+}
+.fast-food p {
+  color: white;
+  font-size: 20px;
+  font-family: "Caveat", cursive;
+}
+.fast-food ol {
+  list-style: block;
+  display: flex;
+}
+.fast-food ol .lavash {
+  transform: rotate(90deg);
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.fast-food ol .burger {
+  transform: rotate(90deg);
+  margin-top: 70px;
+  margin-left: 25px;
+  height: 180px;
+}
+.fast-food ol .shourma {
+  transform: rotate(90deg);
+  margin-top: -40px;
+  margin-left: 39px;
+  width: 90px;
+}
+.fast-food ol .xotdog {
+  margin-left: 20px;
+}
+.fast-food ol li {
+  margin-left: 30px;
+  font-size: 20px;
+  color: white;
+  margin-top: 10px;
+  font-family: "Caveat", cursive;
+}
+
+.ichimliklar {
+  width: 412px;
+  background-color: black;
+  color: white;
+}
+.ichimliklar h1 {
+  font-size: 40px;
+  color: gold;
+  text-align: center;
+  font-family: "Kode Mono", monospace;
+}
+.ichimliklar h2 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-family: "Protest Guerrilla", sans-serif;
+}
+.ichimliklar span {
+  margin-left: 150px;
+}
+.ichimliklar a {
+  color: white;
+}
+.ichimliklar a button {
+  width: 400px;
+  height: 40px;
+  margin-left: 5px;
+  border: 2px solid white;
+  background-color: black;
+  border-radius: 4px;
+  color: white;
+  font-size: 24px;
+}
+.ichimliklar h3 {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Dancing Script", cursive;
+}
+.ichimliklar ol {
+  margin-left: 30px;
+}
+.ichimliklar ol li {
+  margin-top: 15px;
+  font-family: "Caveat", cursive;
+}
+.ichimliklar ol img {
+  width: 412px;
+  margin-left: -30px;
+  margin-top: 5px;
+}
+.ichimliklar .box {
+  display: flex;
+}
+.ichimliklar .box img {
+  width: 230px;
+  height: 350px;
+  margin-left: 20px;
+}
+.ichimliklar .box .milk {
+  width: 200px;
+  height: 160px;
+  margin-left: 40px;
+}
+.ichimliklar .box .smuzi {
+  width: 240px;
+  height: 230px;
+  margin-left: 20px;
+}
+
+.shirinliklar {
+  width: 412px;
+  background-color: rgb(246, 67, 97);
+}
+.shirinliklar h1 {
+  font-size: 40px;
+  color: gold;
+  text-align: center;
+  font-family: "Kode Mono", monospace;
+}
+.shirinliklar h2 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-family: "Protest Guerrilla", sans-serif;
+}
+.shirinliklar span {
+  margin-left: 150px;
+}
+.shirinliklar a {
+  color: white;
+}
+.shirinliklar a button {
+  width: 400px;
+  height: 40px;
+  margin-left: 5px;
+  border: 2px solid white;
+  background-color: rgb(246, 67, 97);
+  border-radius: 4px;
+  color: white;
+  font-size: 24px;
+}
+.shirinliklar h3 {
+  margin-top: 15px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-family: "Dancing Script", cursive;
+}
+.shirinliklar ol {
+  margin-left: 30px;
+}
+.shirinliklar ol li {
+  margin-top: 15px;
+  font-family: "Caveat", cursive;
+  color: white;
+}
+.shirinliklar ol img {
+  width: 300px;
+  margin-left: 40px;
+  height: 250px;
+  margin-top: 15px;
+}
+
+.muzqaymoq {
+  width: 412px;
+  background-color: rgb(240, 163, 38);
+}
+.muzqaymoq h1 {
+  font-size: 40px;
+  color: gold;
+  text-align: center;
+  font-family: "Kode Mono", monospace;
+}
+.muzqaymoq h2 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-family: "Protest Guerrilla", sans-serif;
+}
+.muzqaymoq span {
+  margin-left: 150px;
+}
+.muzqaymoq a {
+  color: white;
+}
+.muzqaymoq a button {
+  width: 400px;
+  height: 40px;
+  margin-left: 5px;
+  border: 2px solid white;
+  background-color: rgb(240, 163, 38);
+  border-radius: 4px;
+  color: white;
+  font-size: 24px;
+}
+.muzqaymoq h3 {
+  margin-top: 15px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-family: "Dancing Script", cursive;
+}
+.muzqaymoq img {
+  width: 412px;
+  margin-top: 20px;
+}
+.muzqaymoq ol {
+  margin-left: 30px;
+  margin-top: -288px;
+  line-height: 5px;
+}
+.muzqaymoq ol li {
+  margin-top: 15px;
+  font-family: "Caveat", cursive;
+  color: black;
+}
+.muzqaymoq ol img {
+  width: 412px;
+  margin-left: -30px;
+  margin-top: 5px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,60 @@
+.muzqaymoq {
+    width: 412px;
+    background-color: rgb(240, 163, 38);
+    // height: 500px;
+    // background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUgVvVYrakQ8u3LU03DfZH9ouKYZd01VinwQhHyLTMX-Y4DqqPOyH5RtTmdDXKv9z_1mk&usqp=CAU);
+        h1 {
+            font-size: 40px;
+            color: gold;
+            text-align: center;
+            font-family: "Kode Mono", monospace;
+        }
+        h2 {
+            font-size: 30px;
+            color: white;
+            text-align: center;
+            font-family: "Protest Guerrilla", sans-serif;
+        }
+        span {
+            margin-left: 150px;
+        }
+        a {
+            color: white;
+                button {
+                    width: 400px;
+                    height: 40px;
+                    margin-left: 5px;
+                    border: 2px solid white;
+                    background-color: rgb(240, 163, 38);
+                    border-radius: 4px;
+                    color: white;
+                    font-size: 24px;
+                }
+        }
+        h3 {
+            margin-top: 15px;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            font-family: "Dancing Script", cursive;
+        }
+        img {
+            width: 412px;
+            margin-top: 20px;
+        }
+        ol {
+            margin-left: 30px;
+            margin-top: -288px;
+            line-height: 5px;
+                li {
+                    margin-top: 15px;
+                    font-family: "Caveat", cursive;
+                    color: black;
+                }
+                img {
+                    width: 412px;
+                    margin-left: -30px;
+                    margin-top: 5px;
+                }
+        }
+}
